@@ -1,0 +1,395 @@
+.container {
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 2.027rem;
+    }
+  
+    ul {
+        list-style-type: none;
+    }
+  
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+  
+    header {
+      background-color: #000000;
+      width: 100%;
+      height: 200px;
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Lato', sans-serif;
+    }
+  
+    nav {
+      font-family: 'Lato', sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 30px;
+      font-size: 20px;
+    }
+  
+    p {
+      font-family: 'Karla', sans-serif;
+      font-size: 25px;
+      padding: 5px;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .banner1-container {
+      position: relative;
+      height: 750px;
+    }
+    
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      margin-top: 0;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 130px;
+      text-align: center;
+    }
+    
+  
+    h1 {
+      font-size: 2.027rem;
+    }
+  
+    h2 {
+      font-size: 1.802rem;
+    }
+  
+    .center {
+      text-align: center;
+    }
+  
+    h3 {
+      margin-top: -11px;
+      padding-left: 8px;
+      font-size: 1.424rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .non-center {
+      margin-top: -11px;
+      padding-left: 8px;
+      font-size: 1.824rem;
+      font-weight: bold;
+    }
+
+    .button1 button,
+    .button2 button {
+      background-color: white;
+      color: #000000;
+      border: none;
+      width: 200px;
+      height: 50px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  
+    .button1,
+    .button2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .pyellow {
+      color: #d69e3d;
+      margin-top: 20px;
+      margin-top: 100px;
+      font-size: 16px;
+      margin-bottom: -10px;
+    }
+  
+    .pyellow-center {
+      color: #d69e3d;
+      text-align: center;
+    }
+  
+    .grid1-container {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      row-gap: 0px;
+      
+    }
+  
+    body {
+      background-color: #f3f0e9 ;
+    }
+
+
+  .center img {
+   width: 200px;
+    }
+
+    .center p {
+      margin-bottom: 130px;
+    }
+
+    .banner2-container {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 550px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    }
+
+    .overlay2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+    .white {
+      color: #fff;
+      font-size: 1.802rem;
+    }
+
+    .transparent-button button {
+      all: unset;
+      font-family: 'Karla', sans-serif;
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+      width: 200px;
+      height: 50px;
+  }
+
+  .transparent-button  { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+.margin {
+  margin-top: -100px;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.non-center {
+  padding-right: 762px;
+}
+
+.black-button button {
+  all: unset;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  background-color: #000000;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+}
+
+.black-button  { 
+  margin-right: 810px;
+  text-align: center;
+  margin-bottom: 120px;
+  padding: 10px;
+}
+
+
+.about-us-img {
+  margin: 15px;
+  margin-top: 250px;
+}
+
+.coffee-shop-img {
+    width: 900px;
+    object-fit: cover;
+    height: 950px;
+  }
+
+  .our-story-h3 {
+    text-align: left;
+    font-size: 1.802rem;
+  }
+
+  .white2 {
+    color: #fff;
+    text-align: left;
+    font-size: 1.802rem;
+  }
+
+ .testimonials-container {
+  background-color: #000;
+  padding: 20px;
+}
+
+  .testimonials {
+    color: #fff;
+  }
+
+  .names {
+    color: #d69e3d;
+    margin-top: -30px;
+  }
+
+
+.testimonial {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.testimonial-image {
+  width: 900px;
+  object-fit: cover;
+  height: 680px;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); 
+  z-index: 2;
+}
+
+.testimonials {
+  padding-top: 500px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media (min-width: 768px)  {
+    h1 {
+      font-size: 2.986rem; 
+    }
+  
+    h2 {
+      font-size: 2.488rem;
+    }
+  
+    h3 {
+      font-size: 1.728rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+
+    nav ul {
+      padding: 0px;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+    }
+    
+    .large-image {
+      flex: 1;
+    }
+    
+    .large-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .grid1-container {
+      flex: 1;
+    }
+    
+    .grid1-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .visit-container {
+      display: flex;
+      gap: 20px;
+      position: relative;
+      padding: auto;
+    }
+    
+    .visit-item {
+      text-align: center;
+      flex: 1;
+      margin: 20px;
+    }
+    
+    .visit-item img {
+      width: 100px; 
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    .visit-item h2 {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    
+    .visit-item p {
+      font-size: 1rem;
+    }
+    
+    .local-baked-goods {
+      order: 2;
+    }
+    
+    .made-with-love {
+      margin-top: 50px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 300px
+    }
+    
+    .about-us-img {
+      width: 500px;
+    
+    }
+
+  }
+    
